@@ -1,0 +1,192 @@
+---
+title: "World Happiness Analysis  \n \\small Student Id: 0824044"
+output: pdf_document
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+## About the App
+
+The developed World Happiness Analysis application is a R Shiny based application.
+It contains features like data exploration, interactive visualizations and descriptive statistics of the dataset.
+It is very user- friendly and easy to use.
+
+You can access the application from here: [[*World Happiness Analysis App*]{.underline}](https://varunkumarboggula.shinyapps.io/World_Happiness/).
+
+Here is the link to access the GitHub repository: [[*https://github.com/VarunKumar1118/World-Happiness-Analysis-Final*]{.underline}](https://github.com/VarunKumar1118/World-Happiness-Analysis-Final){.uri}
+
+## Introduction
+
+The universal quest of happiness is a fundamental desire that unites people.Understanding the factors that contribute to happiness is crucial for policymakers, researchers, and individuals seeking to enhance well-being and quality of life.
+
+A growing amount of research has been done on happiness levels around the world in recent years, which has resulted in the creation of indexes like the World Happiness Report.
+This study evaluates happiness on the basis of several socioeconomic and environmental variables, offering useful details about the state of well-being in different regions.
+
+Prior to COVID-19, social activities, advancements in medicine, and economic prosperity all contributed to rising trends in worldwide happiness.
+But this pandemic also brought with it difficulties, such as lockdowns, job losses, and health issues that caused widespread anxiety and stress.
+Disparities in access to healthcare and other necessities grew as inequality increased.
+
+Economic wealth is a significant factor in determining happiness, as demonstrated by indicators such as GDP per capita.
+Higher GDP per capita is frequently associated with improved access to resources, opportunities, and a higher standard of living.
+Beyond financial prosperity, nevertheless, social support systems are vital to increasing happiness.
+Close relationships, a strong social network, and supportive communities all have a major impact on individual's fundamental sense of well being.
+
+In addition, longevity and good health are a vital part of happiness.
+A long life expectancy, a healthy lifestyle, and having accessibility to high-quality healthcare are all key factors that affect happiness levels.
+In addition, people's sense of fulfillment and independence are influenced by the amount of freedom they have to make decisions in life.
+People live happier lives in societies where civil liberties and individual freedoms are valued more.
+
+It is critical to recognize these changes as societies negotiate the post-pandemic recovery phase.
+Resilience, equity, and well-being-promoting initiatives are critical to addressing the pandemic's long-term effects and reestablishing more robust and inclusive communities.
+This Shiny app provides a valuable tool for analyzing the post- COVID phase factors influencing happiness, demonstrating the evidences that shows the positive and negative factors of the happiness and well-being in a fast moving world.
+
+## About Dataset
+
+The current dataset is obtained from Kaggle [7].
+The dataset is originally published by the Sustainable Development Solutions Network (SDSN).
+The dataset provides us the valuable insights on the factors influencing the happiness and well being across the globe.
+The dataset contains 137 countries from all around the globe and they are grouped into several regions.
+The dataset contains 6 factors that has significant effect on the happiness score across the world.
+
+The following is the detailed description of the dataset columns:
+
+1.  **Country Name:** The name of the country
+2.  **Regional Indicator:** The region to which the particular country belongs.
+3.  **Happiness Score:** It is a numerical score representing the level of happiness reported by participants of each country.
+4.  **Logged GDP per capita:** It is the score of the country's gross domestic product (GDP) per capita i.e., it is the measure of the economic prosperity.
+5.  **Social Support:** It is a measure of the perceived social support and connections available in the country.
+6.  **Healthy Life Expectancy:** It is the mean number of years a person is expected to live with good health condition in a country.
+7.  **Freedom to make life choices:** The degree of which participants feel they have the freedom to make life choices and decisions.
+8.  **Perceptions of Corruptions:** The perception of corruption within a country obtained from public polls and surveys.
+
+## Purpose of the application
+
+This R Shiny app aims to give users a platform for investigating and evaluating patterns in happiness around the world.
+Users can learn a great deal about the complex nature of happiness in various parts of the world by looking at a wide range of variables, such as GDP per capita, social support, health indicators, freedom, and perceptions of corruption.
+This app aims to further our understanding of what makes societies happy and how we can work together to achieve higher well-being for all through visualizations and data-driven analysis.
+
+The following are the key features of the application:
+
+-   Data filtering option is available in the application using which the users can filter the dataset as per their requirement.
+
+-   Users can understand the underlying trends and factors influencing the happiness score by analyzing the interactive graphs available on the **Graphs** tab.
+
+-   Users also can have an understanding about the descriptive statistics of the data that they wish for by moving to the **Summary tab** of the application.
+
+-   As a whole, the application serves as a single destination for data exploration, data visualization and descriptive statistical analytics for a user.
+
+## Addressed Issues and Research Support
+
+The application for World Happiness Analysis draws support from a several previous research projects to address a number of important issues related to the understanding of global happiness dynamics.
+The following is a summary of these issues and the related research that supports them as follows:
+
+1.  **Easterlin Paradox and Growth in GDP**: According to the Easterlin Paradox, while economic growth may initially boost happiness, it does not always follow that greater prosperity inevitably translate into a higher state of well-being after a certain threshold.
+    Study by Wolfersand Easterlin et al. [1] provides context on this phenomena by highlighting how unreliable economic measures are in forecasting happiness levels.
+
+2.  **The Significance of Social Capital and Trust on Happiness**: Social engagement, social relationships, and trust are all crucial elements of happiness.
+    Study conducted by Helliwell et al. and Wang et al. [2] explores the relationship between social capital and well- being and shows us how a strong social networks can positively impact happiness of the individual.
+
+3.  **Cultural and Societal Values**: Happiness levels are greatly influenced by cultural and societal values.
+    Inglehart et al. [4] examined how societal factors affect happiness, emphasizing the role that autonomy, freedom, and individualism have in subjective well-being.
+
+4.  **Governance and Institutional Quality**: In general, happiness outcomes are influenced by institutional factors and governance quality.
+    The relationship between happiness and governance is examined by Graham et al. and Pettinato et al. [5], who highlighted the importance of political stability, the rule of law, and efficient government in promoting well-being.
+
+5.  **Regional Disparities in Happiness**: Based on socioeconomic, cultural, and institutional changes, happiness levels differ substantially across regions.
+    A cross-national analysis of happiness levels conducted by De Neve et al. [6] emphasizes the significance of addressing regional disparities and understanding the root causes of happiness variations.
+
+6.  **Objective Benefits of Subjective Well-Being**: Subjective well-being has tangible benefits for individuals and societies, including improved health, productivity, and social relationships.
+    The objective benefits of happiness are examined by Lyubomirsky et al. [7], highlighting the positive effects of happiness on a variety of facets of life.
+
+By offering insights into the complex relationship of factors impacting subjective well-being across diverse locations and societies and the multifaceted character of happiness, these research findings collectively complement the issues addressed by the World Happiness Analysis application.
+By leveraging interactive data visualization and exploration tools, the application aims to facilitate a deeper understanding of global happiness dynamics and inform evidence-based interventions aimed at enhancing well-being and quality of life worldwide.
+
+## Instructions for using the Application
+
+The following are the detailed instructions on how to use the World Happiness Analysis application:
+
+**Region Selection**:
+
+There is a "**Choose Region**" filter on the left side panel of the application.
+It is a dropdown menu.
+You can select any of the region from the dropdown filter to view the data of that specific region.
+By choosing "All" from the dropdown, you can see the data of all the regions.
+If you wish to reset the filter, you can achieve it by just clicking "**Reset**" button which is just below the dropdown menu.
+
+**Data Tab**:
+
+To see the filtered data table, select the "Data" tab.
+Based on the chosen region, the filtered data is shown in the data table.
+It displays multiple rows including "Country name," "Regional indicator," "Logged GDP per capita," "Social support," "Healthy life expectancy," "Freedom to make life choices," "Generosity," "Perceptions of corruption," as well as "Happiness score."
+
+**Graphs Tab**:
+
+Select the "**Graphs**" tab to see multiple graphs generated from the filtered data.
+
+**i. Bar Plot**: The bar plot depicts about the mean happiness score for each region.
+
+**ii. Correlation Plot**: The correlation between the variables "Logged GDP per capita," "Social support," "Healthy life expectancy," "Freedom to make life decisions," "Perceptions of corruption," and "Happiness score," is represented in a correlation plot.
+
+**ii. Scatter Plot**: This plot shows the relationship between "Happiness score" and "Logged GDP per capita".
+Each point on the plot represents a country, and the location of the point tells us about the Logged GDP per capita and corresponding happiness score.
+
+**iv. Bubble Plot**: The bubble plot depicts the relationship between "Logged GDP per capita" (x-axis), "Social support" (y-axis) and "Happiness score" (size and color of bubbles).
+Each bubble represents a country and the size and color of the bubble represent its corresponding happiness scores.
+
+**Summary Tab**:
+
+To get a summary table of the filtered data, click the "Summary" tab.
+For every numerical variable in the filtered data, statistical summaries (such as mean, median, etc.,) are provided in the summary table.
+
+Based on the provided information, utilize the application to examine different regions, see how variables relate to one another, and learn more about happiness score around the world.
+You can explore and analyze the provided dataset using the World Happiness Analysis Shiny application by following these instructions.
+
+## Conclusion:
+
+The developed World Happiness Analysis Application provides a platform for understanding factors influencing global happiness, offering valuable insights.
+By utilizing the analysis done and the interactive visuals, one can understand the typical relationship between several socio- economical factors and the happiness scores across various regions around the globe.
+
+The application helps in data exploration and the users have feasibility to filter the data based on regions.
+The application has multiple interactive visualizations like bubble plot, scatter plot, bar plot and heat map which are very informative and helpful in understanding the relation between the global factors and the happiness score.
+
+The statistical summary provided in the application enables the users to understand the insights about the descriptive statistics of the dataset.
+
+To conclude, the World Happiness Analysis application helps the policymakers, researchers and individuals who are keen in understanding and analyzing the factors influencing happiness score around the world.
+
+## References:
+
+[1] [Easterlin, R. A. (1974)](https://mpra.ub.uni-muenchen.de/111773/1/MPRA_paper_111773.pdf).
+Does economic growth improve the human lot?
+Some empirical evidence.
+In *Nations and households in economic growth* (pp. 89-125).
+Academic press.
+
+[2] [Helliwell, J. F., Huang, H., & Wang, S. (2016)](https://www.nber.org/system/files/working_papers/w22450/w22450.pdf). 
+*New evidence on trust and well-being* (No. w22450).
+National Bureau of Economic Research.
+
+[3][Inglehart, R., Foa, R., Peterson, C., & Welzel, C.
+(2008)](<https://www.researchgate.net/publication/235643983_Inglehart_R_R_Foa_C_Peterson_C_Welzel_2008_Development_Freedom_and_Rising_Happiness_A_Global_Perspective_1981-2006_Perspectives_on_Psychological_Science_3_4264-85>).
+Development, freedom, and rising happiness: A global perspective (1981–2007). 
+*Perspectives on psychological science*, *3*(4), 264-285.
+
+[4] [Graham, C., & Pettinato, S. (2002)](https://www.researchgate.net/publication/260338657_Happiness_and_Hardship_Opportunity_and_Insecurity_in_New_Market_Economies).
+Happiness and Hardship: Opportunity and Insecurity in New Market Economies. 
+*FINANCE AND DEVELOPMENT*, *39*(3), 55-55.
+
+[5] [De Neve, J. E., Diener, E., Tay, L., & Xuereb, C. (2013)](https://www.researchgate.net/publication/255483372_The_Objective_Benefits_of_Subjective_Well-Being).
+The objective benefits of subjective well-being. 
+*World happiness report*.
+
+[6] [Lyubomirsky, S., King, L., & Diener, E. (2005)](https://www.apa.org/pubs/journals/releases/bul-1316803.pdf).
+The benefits of frequent positive affect: Does happiness lead to success?. 
+*Psychological bulletin*, *131*(6), 803.
+
+[7] [Atom1991. (2023)](https://www.kaggle.com/datasets/atom1991/world-happiness-report-2023?select=whr2023.csv).
+World Happiness Report 2023.
+Kaggle.
+
+[8] R Graph Gallery.
+(n.d.).
+Retrieved from <https://r-graph-gallery.com/>
